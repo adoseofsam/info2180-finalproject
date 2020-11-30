@@ -9,9 +9,13 @@ if(isset($_GET)){
     $output = "<div id = \"sub\">
     <form action = \"scripts/submitissue.php\" method = \"POST\">
         <h1>Create Issue<h1>
-        <div id = \"Issue\">
-            <label for = \"title\">Title</label><br>
-            <input type = \"text\" id = \"newissue-title\" name = \"title\"/><br>
+        <div id = \"issue\">
+            <label for = \"issue\">Title</label><br>
+            <input type = \"text\" id = \"newissue\" name = \"title\"/><br>
         
         </div>
+        <div id =\"des\">
+            <label for = \"des\">Description</label><br>
+        
+</div>
 }
