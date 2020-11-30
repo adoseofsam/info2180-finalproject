@@ -31,6 +31,15 @@ if(isset($_GET)){
 $output .= "</select>
 
         </div>
+        <div id = \"type\">
+            <label for = \"type\">Type</label><br>
+
+            <select id = \"newissue-type\" name = \"type\" placeholder = \"Bug\">
+                <option value = \"Bug\">Bug</option>
+                <option value = \"Proposal\">Proposal</option>
+                <option value = \"Task\">Task</option>
+            </select>
+        </div>
 
         <div id = \"priority\">
             <label for = \"priority\">Priority</label><br>
