@@ -19,14 +19,5 @@ if (isset($_POST)) {
         $lastname = $row['lastname'];
 
 
-    } $createdby = $firstname . "" . $lastname;
-    $assigned = $_POST['assign'];
-    $time = strval(date("h:i:s"));
-    $date = strval(date("Y-m-d"));
-    $dateT = $date . "" . $time;
-
-    $conn->query("INSERT INTO Issues(issue, des, type,priority,stat,assign,createdby,created,update) VALUES ('$issue','$desc','$type',$prior', 'OPEN', '$assigned',$createdby','$dateT', '$dateT') ");
-    echo "true";
-
-}
+    }
 ?>
