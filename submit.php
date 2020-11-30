@@ -18,6 +18,8 @@ if (isset($_POST)) {
         $firstname = $row['firstname'];
         $lastname = $row['lastname'];
 
+
+    } $createdby = $firstname . "" . $lastname;
     $assigned = $_POST['assign'];
     $time = strval(date("h:i:s"));
     $date = strval(date("Y-m-d"));
