@@ -1,7 +1,20 @@
 <?php
 session_start();
 
-require_once 'connectdb.php';
+require_once 'dbconnection.php';
+
+
+$host="localhost";
+$user="root";
+$password="";
+$dbname="USERS";
+
+$con = mysqli_connect($host, $user, $password, $dbname)
+  or die ('Could not connect to the database server' . mysqli_connect_error());
+  
+if($con){
+  //echo "Connection Successful";
+}
 
 if (isset($_POST)) {
     $issue = filter_var($_POST['issue'],FILTER_SANITIZE_FULL_SPECIAL_CHARS);
