@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel= "stylesheet" href = "new-user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BugMe Issue Tracker</title>
+</head>
+<body>
+        <div id="outer">
+                <div id="header">
+                  <div class = "issue">
+                        <h1 class="fa fa-bug">   BugMe Issue Tracker</h1>
+                    </div>
+                </div>
+                <div id="inner">
+                    <div id="sidebar">
+                      <nav>
+                        <ul>
+                            <li class = "fa fa-home"> Home</li>
+                            <li class = "fa fa-user-plus"> Add User</li>
+                            <li class = "fa fa-plus-circle"> New Issue</li>
+                            <li class = "fa fa-power-off"> Log Out</li>
+                        </ul>
+                    </nav>
+                    </div>  
+                    <div id="content">
+                            <h1 class = "user">
+                                New User
+                            </h1>
+                      <form method = "post" action = "usersubmit.php" ">
+                          <div class = "forms">
+                            <label for "first">Firstname</label>
+                            <input type = "text" name = "Firstname" id = "first"> 
+                            <label for "last">Lastname</label>
+                            <input type = "text" name = "Lastname" id = "last">
+                            <label for "pwd">Password</label>
+                            <input type = "password" name = "Password" id = "pwd">
+                            <label for "email">Email</label>
+                            <input type = "email" name = "Email" id = "email">
+                        </div>
+                        <button type="submit" class="btn" name = 'submit'>Submit</button>
+                      </form>
+                    </div>  
+                </div>
+            </div>  
+                    
+                        
+</body>
+</html>
