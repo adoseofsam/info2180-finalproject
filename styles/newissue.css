@@ -1,0 +1,93 @@
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 20px;
+}
+
+td {
+    border: 1px solid rgb(170, 169, 169);
+    text-align: left;
+    vertical-align: center;
+    padding-left: 10px;
+}
+
+th {
+    height: 35px;
+    background-color: #979494;
+    color: white;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+td {
+    height: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d3d1d1;
+}
+
+a:hover {
+    color: rgb(0, 153, 255);
+}
+#newissue-title {
+    height: 35px;
+    width: 450px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    background-color: rgb(243, 242, 242);
+    border-color: rgb(218, 213, 213);
+    font-size: 20px;
+}
+
+#newissue-description {
+    width: 450px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    background-color: rgb(243, 242, 242);
+    border-color: rgb(218, 213, 213);
+    font-size: 20px;
+}
+
+#newissue-assignedTo {
+    height: 35px;
+    width: 450px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    background-color: rgb(243, 242, 242);
+    border-color: rgb(218, 213, 213);
+    font-size: 20px;
+}
+
+#newissue-type {
+    height: 35px;
+    width: 450px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    background-color: rgb(243, 242, 242);
+    border-color: rgb(218, 213, 213);
+    font-size: 20px;
+}
+
+#newissue-priority {
+    height: 35px;
+    width: 450px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    background-color: rgb(243, 242, 242);
+    border-color: rgb(218, 213, 213);
+    font-size: 20px;
+}
+
+#newissue-submit {
+    height: 35px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: rgb(32, 127, 236);
+    border-color: black;
+    color: white;
+    font-size: 15px;
+}
